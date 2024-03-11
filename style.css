@@ -1,0 +1,74 @@
+body{
+    background-color: hsla(60, 95%, 83%, 0.208);
+    font-family: 'arial' , sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.searchBox{
+    display: flex;
+    align-items: center;
+}
+
+#searchBox{
+    font-size: 30px;
+    color: hwb(0 0% 100% / 0.75);
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid hwb(0 0% 100% / 0.5);
+    padding: 10px;
+    margin: 10px;
+}
+
+button{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(109, 100%, 50%);
+}
+
+.display{
+    
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    padding: 30px;
+    background: linear-gradient(180deg, hsla(33, 100%, 58%, 0.7) , hsla(280, 100%, 50%, 0.5));
+    border-radius: 15px;
+}
+
+.city , .temp{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 50px;
+    font-weight: 700;
+    margin: 25px 0px;
+}
+
+
+.desc{
+    color: rgba(0, 0, 0, 0.7);
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 25px 0px;
+}
+
+.emoji{
+    font-size: 50px;
+    margin: 25px 0px;
+}
+
+.error{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 700;
+    margin: 25px 0px;
+}
